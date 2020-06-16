@@ -39,7 +39,7 @@ SC is one of the most prominent integrity protection techniques. In this exercis
 
 - Patch the placeholders in the compiled binary:
 
-  ```python postpath.py -b out/sample-protected.out -f sensitive -p 222222222 333333333```
+  ```python postpatch.py -b out/sample-protected.out -f sensitive -p 222222222 333333333```
 
 *Note:* the protect script uses two hardcoded placeholders (222222222 and 333333333) as placeholders for function size and expected hash, respectively.
 
