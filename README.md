@@ -1,5 +1,5 @@
 # basic-self-checksumming: A basic implementation of self-checksumming for C programs in python
-This repository provides a sample solution for `exercise 5.4` of the Security Engineering course (summer term 2020). 
+This repository provides a sample solution for `exercise 5.4` of the Security Engineering course (summer term 2020) at the Technical University of Munich. 
 
 The tool comprises two scripts: `protect.py` and `postpatch.py` adhering to the exercise specifications.
 
