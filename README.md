@@ -34,10 +34,22 @@ SC is one of the most prominent integrity protection techniques. In this exercis
   - mmap
   - pprint
   
+# Dockerized tool configuration (Recommended)
+- *Prerequisite:* Docker (version 2.0 or higher)
+- Clone the repository `git clone https://github.com/mr-ma/basic-self-checksumming`
+- Navigate to the repo folder `cd basic-self-checksumming`
+- Build a docker image: `docker build .` 
+  - `Successfully built XXXXXXXX` indicates that the build was successful 
+- Run a container and open an interactive shell
+  - `docker run -it XXXXXXXX bash`
   
-# Tool usage
+
+# Manual tool configuration
 - Clone the respository `git clone https://github.com/mr-ma/basic-self-checksumming`
 - Install pip dependencies 
+
+# Tool usage
+
 - Protect the `sensitive` function in the sample program (enclosed sample.c):
 
   ```python protect.py -p sample.c -f sensitive```
