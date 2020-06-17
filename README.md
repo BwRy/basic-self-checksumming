@@ -63,6 +63,11 @@ SC is one of the most prominent integrity protection techniques. In this exercis
 *Note:* the protect script uses two hardcoded placeholders (222222222 and 333333333) as placeholders for function size and expected hash, respectively.
 
 
+# Author
+Mohsen Ahmadvand 
+https://www.in.tum.de/i04/ahmadvand/
+
+
 
 
 
