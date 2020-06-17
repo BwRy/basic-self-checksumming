@@ -23,6 +23,11 @@ SC is one of the most prominent integrity protection techniques. In this exercis
 
 # Requirements
 - Python 2.7+
+- Radare 2 (version 3.5.1+)
+
+  Build and install Radare 2 locally:
+  
+  ```git clone https://github.com/radareorg/radare2 && cd radare2 && sys/install.sh```
 - pip library depndencies: (use ```pip install XXX```)
   - r2pipe 
   - argparse
