@@ -26,6 +26,9 @@ def patch_binary(mm, search_value, patch_value):
     flag = "<I"  # little-endian unsigned int
     search_bytes = struct.pack(flag, search_value)
     address = mm.find(search_bytes)
+    if address == -1:
+        mm.seek(0)
+        address = mm.find(search_bytes)
     mm.seek(address, os.SEEK_SET)
     patch_bytes = struct.pack(flag, patch_value)
     mm.write(patch_bytes)
