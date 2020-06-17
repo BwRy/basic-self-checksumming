@@ -24,11 +24,7 @@ SC is one of the most prominent integrity protection techniques. In this exercis
 # Requirements
 - Python 2.7+
 - Radare 2 (version 3.5.1+)
-
-  Build and install Radare 2 locally:
-  
-  ```git clone https://github.com/radareorg/radare2 && cd radare2 && sys/install.sh```
-- pip library depndencies: (use ```pip install XXX```)
+- pip library depndencies: 
   - r2pipe 
   - argparse
   - mmap
@@ -45,8 +41,14 @@ SC is one of the most prominent integrity protection techniques. In this exercis
   
 
 # Manual tool configuration
+- Install Radare 2
+
+  ```git clone https://github.com/radareorg/radare2 && cd radare2 && sys/install.sh```
 - Clone the respository `git clone https://github.com/mr-ma/basic-self-checksumming`
+- Navigate into the repo directory
+  - `cd basic-self-checksumming`
 - Install pip dependencies 
+  - Use ```pip install XXX``` or `pip install -r requirements.txt`
 
 # Tool usage
 
