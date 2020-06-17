@@ -1,4 +1,3 @@
 r2pipe
 argparse
-mmap
 pprint
